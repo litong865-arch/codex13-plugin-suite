@@ -116,7 +116,7 @@ def create_fixture(root: Path) -> None:
     (root / "src/app/api/admin").mkdir(parents=True)
     (root / "src/app").mkdir(parents=True, exist_ok=True)
     (root / "src/app/chat.tsx").write_text(
-        '"use client"; const apiKey="sk-real-ish-key-12345678901234567890"; export const systemPrompt="secret";',
+        '"use client"; const apiKey="EXAMPLE"; export const systemPrompt="example secret";',
         encoding="utf-8",
     )
     (root / "src/app/api/admin/route.ts").write_text(
