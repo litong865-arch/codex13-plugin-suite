@@ -1,0 +1,25 @@
+{
+  "name": "spec-builder",
+  "version": "1.0.0",
+  "description": "A Codex plugin that turns vague product ideas, PRDs, or rough notes into complete development specs, acceptance criteria, architecture docs, API docs, and progress templates.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Spec 生成器",
+    "shortDescription": "把模糊想法变成 Codex 可执行开发规格。",
+    "longDescription": "生成 docs/spec.md、docs/acceptance.md、docs/architecture.md、docs/api.md、docs/progress.md，防止 Codex 从模糊想法直接乱写代码。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 spec-builder 帮我把这个想法整理成开发 Spec。",
+      "帮我生成 docs/spec.md、验收标准和开发任务。",
+      "我只有一个 PRD，请先转成 Codex 可执行 Spec。"
+    ]
+  }
+}

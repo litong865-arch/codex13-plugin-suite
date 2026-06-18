@@ -1,0 +1,25 @@
+{
+    "name":  "product-feasibility-gate",
+    "version":  "3.1.0",
+    "description":  "A Codex workflow plugin that checks product feasibility before implementation. It pressure-tests the idea, defines MVP mainline flow, validates APIs, separates real features from mock data, generates testable acceptance criteria, and adds preflight project setup plus AI engineering scaffold checks before coding.",
+    "author":  {
+                   "name":  "personal"
+               },
+    "skills":  "./skills/",
+    "interface":  {
+                      "displayName":  "产品可行性闸门",
+                      "shortDescription":  "开发前先判断项目值不值得做、MVP 怎么跑通、开工结构是否清楚、AI 工程脚手架是否可靠。",
+                      "longDescription":  "在 Codex 开发产品、AI Agent、APP、小程序、SaaS、自动化系统或插件之前，先完成 Idea、MVP、Launch、Scale 四阶段可行性审查，并检查开工前文档/Git/Spec/角色分工，以及 AI 工程脚手架、架构边界、反馈系统、静态检查和持续重构。",
+                      "developerName":  "personal",
+                      "category":  "Productivity",
+                      "capabilities":  [
+                                           "Read",
+                                           "Write"
+                                       ],
+                      "defaultPrompt":  [
+                                            "使用 product-feasibility-gate 帮我检查这个项目，先不要写代码。",
+                                            "先走产品可行性闸门，判断这个项目值不值得做、MVP 主线怎么跑通、开工准备是否完整。",
+                                            "帮我对这个 AI Agent 项目做产品可行性审查、开工准备检查和 AI 工程脚手架检查。"
+                                        ]
+                  }
+}

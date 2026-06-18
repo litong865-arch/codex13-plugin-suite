@@ -1,0 +1,25 @@
+{
+  "name": "user-interview-generator",
+  "version": "1.0.0",
+  "description": "A Codex plugin that creates real-user validation plans, interview questions, outreach messages, surveys, and feedback templates to test whether a product idea has real demand.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "用户访谈生成器",
+    "shortDescription": "帮你找真人验证需求。",
+    "longDescription": "生成 7 天用户验证计划、访谈问题、私信话术、问卷、反馈记录模板和通过标准。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 user-interview-generator 帮我设计用户访谈。",
+      "帮我写一套验证这个产品需求的访谈问题。",
+      "帮我找真人验证这个想法的 7 天计划。"
+    ]
+  }
+}

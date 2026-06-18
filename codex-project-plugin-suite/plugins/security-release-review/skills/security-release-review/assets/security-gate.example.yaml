@@ -1,0 +1,37 @@
+# Security Gate V5 baseline.
+# Copy to project root as security-gate.yaml and adjust before release.
+
+public_launch: true
+require_dynamic_test: true
+max_high: 0
+
+roles:
+  - guest
+  - user
+  - member
+  - admin
+  - superadmin
+
+has_admin: true
+has_ai: false
+has_sms: false
+has_upload: false
+has_payment: false
+has_ugc: true
+
+max_upload_mb: 10
+daily_ai_token_budget: 200000
+daily_sms_budget: 200
+daily_upload_mb_budget: 1024
+git_history_max_commits: 120
+
+required_kill_switches:
+  - registration
+  - upload
+  - comments
+  - ai
+  - sms
+
+public_api_allowlist:
+  - GET /
+  - GET /health

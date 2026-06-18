@@ -1,0 +1,7 @@
+interface:
+  display_name: "Security Release Review"
+  short_description: "V4 evidence-based commercial launch security gate with CI outputs."
+  default_prompt: "Use $security-release-review to run a V4 evidence-based launch security gate and produce GO/CONDITIONAL GO/NO GO."
+
+policy:
+  allow_implicit_invocation: true

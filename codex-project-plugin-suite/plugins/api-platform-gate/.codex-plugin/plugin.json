@@ -1,0 +1,25 @@
+{
+  "name": "api-platform-gate",
+  "version": "1.0.0",
+  "description": "A Codex plugin that checks whether third-party APIs, platform automation, account access, comments, payments, posting, scraping, and integrations are allowed, available, safe, and feasible before implementation.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "API / 平台可行性审查器",
+    "shortDescription": "先查平台是否允许，再决定能不能做。",
+    "longDescription": "检查第三方平台 API、自动化权限、企业认证、封号风险、自动登录风险、mock 替代方案和半自动方案。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 api-platform-gate 帮我检查这个平台功能能不能做。",
+      "检查这个项目是否有真实 API，可以自动化吗？",
+      "帮我判断这个自动回复/自动发布功能有没有平台风险。"
+    ]
+  }
+}

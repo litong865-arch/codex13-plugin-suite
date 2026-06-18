@@ -1,0 +1,25 @@
+{
+  "name": "competitor-analyzer",
+  "version": "1.0.0",
+  "description": "A Codex plugin that analyzes competitors, substitutes, positioning, pricing, differentiation, switching costs, and reasons users would or would not adopt a product.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "竞品分析器",
+    "shortDescription": "分析竞品、替代方案和差异化。",
+    "longDescription": "帮助项目判断竞品是谁、用户现在怎么解决、为什么要换、怎么定价、差异化是否足够强。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 competitor-analyzer 帮我分析竞品。",
+      "帮我分析这个产品的替代方案和差异化。",
+      "用户为什么会从竞品换到我这里？"
+    ]
+  }
+}

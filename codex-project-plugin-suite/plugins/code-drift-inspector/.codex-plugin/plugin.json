@@ -1,0 +1,25 @@
+{
+  "name": "code-drift-inspector",
+  "version": "1.0.0",
+  "description": "A Codex plugin that inspects projects after multiple AI coding iterations to detect code drift, architecture boundary violations, mock-real mixing, oversized files, duplicated logic, missing tests, and documentation decay.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "代码漂移巡检器",
+    "shortDescription": "防止 Codex 把项目越写越乱。",
+    "longDescription": "检查目录、分层、命名、依赖、mock、API、超大文件、重复代码、废弃文件、测试缺口和技术债。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 code-drift-inspector 检查我的项目有没有代码漂移。",
+      "帮我检查 Codex 多轮修改后代码是否变乱。",
+      "检查这个项目的架构边界、mock 和真实 API 是否混乱。"
+    ]
+  }
+}

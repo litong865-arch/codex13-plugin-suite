@@ -1,0 +1,25 @@
+{
+  "name": "decision-stress-test-gate",
+  "version": "2.0.0",
+  "description": "A Codex workflow plugin that pressure-tests products, startups, side projects, accounts, investments, partnerships, job changes, and major decisions by identifying fatal assumptions, failure scenarios, VC-style objections, alternatives, validation plans, and continue-adjust-pause recommendations.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "决策压力测试器",
+    "shortDescription": "做决定前先审判：它最可能怎么死？",
+    "longDescription": "在做产品、AI Agent、副业、创业、投资、合伙、账号、换工作或重大决策前，先找出致命假设、半年后失败原因、VC 拷问问题、替代方案和 7 天现实验证计划。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 decision-stress-test-gate 帮我压力测试这个想法。",
+      "先不要鼓励我，帮我找出这个项目最可能怎么死。",
+      "帮我找出这个决策最致命的 3 个假设。"
+    ]
+  }
+}

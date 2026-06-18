@@ -1,0 +1,55 @@
+release_level: "commercial"
+public_launch: true
+require_dynamic_test: true
+require_retest: true
+
+has_ai: true
+has_sms: true
+has_upload: true
+has_ugc: true
+has_payment: false
+has_admin: true
+has_restaurant_compliance: true
+
+max_critical: 0
+max_high: 0
+
+roles:
+  - guest
+  - user_a
+  - user_b
+  - member
+  - admin
+  - super_admin
+
+public_paths:
+  - "/"
+  - "/login"
+  - "/register"
+
+admin_paths:
+  - "/admin"
+  - "/api/admin"
+
+cost_paths:
+  - "/api/otp"
+  - "/api/sms"
+  - "/api/ai/chat"
+  - "/api/upload"
+
+idor_paths:
+  - "/api/users/:id"
+  - "/api/orders/:id"
+  - "/api/profile/:id"
+
+hard_no_go:
+  - "secret_leak"
+  - "admin_without_auth"
+  - "idor_or_bola"
+  - "unlimited_sms"
+  - "frontend_ai_key"
+  - "unlimited_ai"
+  - "unlimited_public_upload"
+  - "unsigned_payment_webhook"
+  - "production_debug"
+  - "sensitive_logs"

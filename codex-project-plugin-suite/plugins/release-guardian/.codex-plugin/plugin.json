@@ -1,0 +1,25 @@
+{
+  "name": "release-guardian",
+  "version": "1.0.0",
+  "description": "A Codex plugin that checks whether a project is ready to release, deploy, demo, or hand off by verifying env files, secrets, builds, tests, versions, documentation, rollback plan, and post-release monitoring.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "上线发布守护器",
+    "shortDescription": "上线前检查构建、密钥、测试、回滚和观察项。",
+    "longDescription": "轻量发布闸门：检查 .env、API Key、构建、测试、版本号、README、回滚方案、上线后 24 小时观察清单。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 release-guardian 帮我做上线前检查。",
+      "检查这个项目能不能发布。",
+      "帮我生成上线发布清单和回滚方案。"
+    ]
+  }
+}

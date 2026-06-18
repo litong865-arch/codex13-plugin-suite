@@ -1,0 +1,18 @@
+{
+  "name": "security-release-review",
+  "version": "10.1.0",
+  "description": "安全闸门：扫描当前项目的上线安全风险，给出可读摘要、评分、阻断项、修复计划、攻击路径、上线守护、CI 门禁和组织治理报告。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "安全闸门",
+    "shortDescription": "扫描项目安全风险，评分并判断是否可以上线。",
+    "longDescription": "安全闸门提供一个 Codex skill，用于扫描当前项目的密钥泄露、Git 历史密钥、鉴权缺口、越权风险、框架和语义路由风险、AI/Agent 风险、上传风险、短信和成本滥用、内容审核、应急开关、供应链、运行时配置和餐饮业务合规问题。V10 还生成权限矩阵、攻击路径、补丁草案、上线后守护、日志异常分析、安全数字孪生、PR 语义审查、审批/SLA、组织控制面、发布契约、运行时防护建议和安全成熟度评分。",
+    "developerName": "Local developer",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "扫描当前项目，给出安全闸门评分、阻断风险和修复计划。"
+  }
+}

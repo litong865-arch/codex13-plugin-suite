@@ -1,0 +1,25 @@
+{
+  "name": "ai-cost-estimator",
+  "version": "1.0.0",
+  "description": "A Codex plugin that estimates AI and API costs, latency, quota usage, retry costs, caching needs, rate limits, and unit economics for AI products and agents.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI 成本估算器",
+    "shortDescription": "估算 AI/API 调用成本、速度和额度风险。",
+    "longDescription": "检查一次完整流程调用多少次模型、多少钱、是否需要缓存、限流、降级、重试控制和额度保护。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 ai-cost-estimator 帮我估算这个 AI 产品成本。",
+      "帮我算一次完整流程大概要调用几次模型。",
+      "检查这个 Agent 成本会不会失控。"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "beginner-runbook-builder",
+  "version": "1.0.0",
+  "description": "A Codex plugin that turns technical project results into beginner-friendly step-by-step runbooks with exact commands, where to click, what to copy, how to verify success, and what to do when errors occur.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "小白执行手册生成器",
+    "shortDescription": "把复杂技术步骤变成小白能照做的教程。",
+    "longDescription": "生成运行、测试、部署、演示、排错、下一步操作的详细小白手册。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 beginner-runbook-builder 给我生成小白执行手册。",
+      "把这个项目的运行和部署步骤写成小白教程。",
+      "告诉我一步一步该点哪里、复制什么、运行什么。"
+    ]
+  }
+}

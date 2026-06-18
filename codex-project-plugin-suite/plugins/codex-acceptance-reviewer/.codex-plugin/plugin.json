@@ -1,0 +1,25 @@
+{
+  "name": "codex-acceptance-reviewer",
+  "version": "1.0.0",
+  "description": "A Codex plugin that verifies whether Codex actually completed the requested implementation, detecting fake buttons, mock-only flows, broken mainlines, missing persistence, failed APIs, and incomplete documentation.",
+  "author": {
+    "name": "personal"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex 执行验收器",
+    "shortDescription": "检查 Codex 是否真的完成，而不是假完成。",
+    "longDescription": "专门验收 Codex 的开发成果：主线是否跑通、按钮是否真可用、数据是否保存、mock 是否标记、API 失败是否有提示、测试是否通过。",
+    "developerName": "personal",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 codex-acceptance-reviewer 帮我验收 Codex 的实现。",
+      "检查这个项目是不是假完成。",
+      "帮我确认主线是否真的跑通。"
+    ]
+  }
+}
